@@ -23,7 +23,17 @@
 		C6B1A9F42AA0C26B00D28AD5 /* NetworkEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1A9F32AA0C26B00D28AD5 /* NetworkEndpoints.swift */; };
 		C6B1A9F62AA0C27100D28AD5 /* NetworkErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1A9F52AA0C27100D28AD5 /* NetworkErrorTypes.swift */; };
 		C6B1A9F82AA0C5B200D28AD5 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1A9F72AA0C5B200D28AD5 /* ServiceFactory.swift */; };
-		C6B1A9FC2AA0C6FF00D28AD5 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1A9FB2AA0C6FF00D28AD5 /* HotelTableViewCell.swift */; };
+		C6B1A9FE2AA0DC9400D28AD5 /* HotelHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1A9FD2AA0DC9400D28AD5 /* HotelHeaderTableViewCell.swift */; };
+		C6B1AA002AA0DCA000D28AD5 /* HotelFooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1A9FF2AA0DCA000D28AD5 /* HotelFooterTableViewCell.swift */; };
+		C6B1AA032AA1E72000D28AD5 /* UITableView + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1AA022AA1E72000D28AD5 /* UITableView + extensions.swift */; };
+		C6B1AA052AA2066C00D28AD5 /* UIColor + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1AA042AA2066C00D28AD5 /* UIColor + extensions.swift */; };
+		C6B1AA072AA20C2300D28AD5 /* UIFont + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1AA062AA20C2300D28AD5 /* UIFont + extensions.swift */; };
+		C6B1AA0C2AA20CAF00D28AD5 /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = C6B1AA092AA20CAF00D28AD5 /* SFPRODISPLAYBOLD.OTF */; };
+		C6B1AA0D2AA20CAF00D28AD5 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = C6B1AA0A2AA20CAF00D28AD5 /* SFPRODISPLAYMEDIUM.OTF */; };
+		C6B1AA0E2AA20CAF00D28AD5 /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = C6B1AA0B2AA20CAF00D28AD5 /* SFPRODISPLAYREGULAR.OTF */; };
+		C6CBDC242AA319E400CB388E /* HotelPage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CBDC232AA319E400CB388E /* HotelPage.xcassets */; };
+		C6CBDC282AA3221500CB388E /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6CBDC272AA3221500CB388E /* SF-Pro-Display-Semibold.otf */; };
+		C6CBDC2A2AA324C200CB388E /* UIViewController + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDC292AA324C200CB388E /* UIViewController + extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +56,17 @@
 		C6B1A9F32AA0C26B00D28AD5 /* NetworkEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndpoints.swift; sourceTree = "<group>"; };
 		C6B1A9F52AA0C27100D28AD5 /* NetworkErrorTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorTypes.swift; sourceTree = "<group>"; };
 		C6B1A9F72AA0C5B200D28AD5 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
-		C6B1A9FB2AA0C6FF00D28AD5 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		C6B1A9FD2AA0DC9400D28AD5 /* HotelHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		C6B1A9FF2AA0DCA000D28AD5 /* HotelFooterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelFooterTableViewCell.swift; sourceTree = "<group>"; };
+		C6B1AA022AA1E72000D28AD5 /* UITableView + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + extensions.swift"; sourceTree = "<group>"; };
+		C6B1AA042AA2066C00D28AD5 /* UIColor + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + extensions.swift"; sourceTree = "<group>"; };
+		C6B1AA062AA20C2300D28AD5 /* UIFont + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + extensions.swift"; sourceTree = "<group>"; };
+		C6B1AA092AA20CAF00D28AD5 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		C6B1AA0A2AA20CAF00D28AD5 /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		C6B1AA0B2AA20CAF00D28AD5 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		C6CBDC232AA319E400CB388E /* HotelPage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HotelPage.xcassets; sourceTree = "<group>"; };
+		C6CBDC272AA3221500CB388E /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		C6CBDC292AA324C200CB388E /* UIViewController + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extensions.swift"; sourceTree = "<group>"; };
 		F82F172E69930A1C3B9A7BB7 /* Pods-HotelTestovoye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelTestovoye.debug.xcconfig"; path = "Target Support Files/Pods-HotelTestovoye/Pods-HotelTestovoye.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +117,7 @@
 				C6B1A9F02AA0C22000D28AD5 /* Services */,
 				C6B1A9E02A9F984900D28AD5 /* Core */,
 				C6B1A9DA2A9F91BD00D28AD5 /* Screens */,
+				C6B1AA012AA1E71100D28AD5 /* Extensions */,
 				C6B1A9D92A9F917900D28AD5 /* Resources */,
 			);
 			path = HotelTestovoye;
@@ -114,6 +135,8 @@
 		C6B1A9D92A9F917900D28AD5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C6CBDC222AA319CA00CB388E /* HotelPageAssets */,
+				C6B1AA082AA20C8500D28AD5 /* Fonts */,
 				C6B1A9CD2A9F913E00D28AD5 /* Assets.xcassets */,
 				C6B1A9CF2A9F913E00D28AD5 /* LaunchScreen.storyboard */,
 				C6B1A9D22A9F913E00D28AD5 /* Info.plist */,
@@ -167,7 +190,7 @@
 		C6B1A9E52AA0931100D28AD5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C6B1A9F92AA0C6BD00D28AD5 /* Cell */,
+				C6B1A9F92AA0C6BD00D28AD5 /* Cells */,
 				C6B1A9C82A9F913C00D28AD5 /* HotelPageViewController.swift */,
 			);
 			path = View;
@@ -201,12 +224,13 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		C6B1A9F92AA0C6BD00D28AD5 /* Cell */ = {
+		C6B1A9F92AA0C6BD00D28AD5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				C6B1A9FB2AA0C6FF00D28AD5 /* HotelTableViewCell.swift */,
+				C6B1A9FD2AA0DC9400D28AD5 /* HotelHeaderTableViewCell.swift */,
+				C6B1A9FF2AA0DCA000D28AD5 /* HotelFooterTableViewCell.swift */,
 			);
-			path = Cell;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C6B1A9FA2AA0C6D200D28AD5 /* ViewModel */ = {
@@ -216,13 +240,42 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		C6B1AA012AA1E71100D28AD5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBDC292AA324C200CB388E /* UIViewController + extensions.swift */,
+				C6B1AA022AA1E72000D28AD5 /* UITableView + extensions.swift */,
+				C6B1AA042AA2066C00D28AD5 /* UIColor + extensions.swift */,
+				C6B1AA062AA20C2300D28AD5 /* UIFont + extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6B1AA082AA20C8500D28AD5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1AA092AA20CAF00D28AD5 /* SFPRODISPLAYBOLD.OTF */,
+				C6CBDC272AA3221500CB388E /* SF-Pro-Display-Semibold.otf */,
+				C6B1AA0A2AA20CAF00D28AD5 /* SFPRODISPLAYMEDIUM.OTF */,
+				C6B1AA0B2AA20CAF00D28AD5 /* SFPRODISPLAYREGULAR.OTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C6CBDC222AA319CA00CB388E /* HotelPageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBDC232AA319E400CB388E /* HotelPage.xcassets */,
+			);
+			path = HotelPageAssets;
+			sourceTree = "<group>";
+		};
 		CAFD3A1A658E325F4E2718CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F82F172E69930A1C3B9A7BB7 /* Pods-HotelTestovoye.debug.xcconfig */,
 				9211ADEBBD763B5F423FE5DF /* Pods-HotelTestovoye.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -287,7 +340,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6B1A9D12A9F913E00D28AD5 /* LaunchScreen.storyboard in Resources */,
+				C6B1AA0C2AA20CAF00D28AD5 /* SFPRODISPLAYBOLD.OTF in Resources */,
+				C6B1AA0D2AA20CAF00D28AD5 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				C6CBDC282AA3221500CB388E /* SF-Pro-Display-Semibold.otf in Resources */,
+				C6B1AA0E2AA20CAF00D28AD5 /* SFPRODISPLAYREGULAR.OTF in Resources */,
 				C6B1A9CE2A9F913E00D28AD5 /* Assets.xcassets in Resources */,
+				C6CBDC242AA319E400CB388E /* HotelPage.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,17 +400,22 @@
 			files = (
 				C6B1A9F22AA0C25F00D28AD5 /* NetworkLayer.swift in Sources */,
 				C6B1A9F62AA0C27100D28AD5 /* NetworkErrorTypes.swift in Sources */,
+				C6B1AA072AA20C2300D28AD5 /* UIFont + extensions.swift in Sources */,
 				C6B1A9DF2A9F983900D28AD5 /* AppCoordinator.swift in Sources */,
 				C6B1A9EE2AA09EE300D28AD5 /* HotelsModel.swift in Sources */,
 				C6B1A9C92A9F913C00D28AD5 /* HotelPageViewController.swift in Sources */,
+				C6B1A9FE2AA0DC9400D28AD5 /* HotelHeaderTableViewCell.swift in Sources */,
 				C6B1A9F82AA0C5B200D28AD5 /* ServiceFactory.swift in Sources */,
+				C6B1AA002AA0DCA000D28AD5 /* HotelFooterTableViewCell.swift in Sources */,
 				C6B1A9E22A9F985500D28AD5 /* Coordinator.swift in Sources */,
 				C6B1A9E72AA0932C00D28AD5 /* HotelPageViewFactory.swift in Sources */,
 				C6B1A9C52A9F913C00D28AD5 /* AppDelegate.swift in Sources */,
+				C6B1AA052AA2066C00D28AD5 /* UIColor + extensions.swift in Sources */,
+				C6B1AA032AA1E72000D28AD5 /* UITableView + extensions.swift in Sources */,
 				C6B1A9C72A9F913C00D28AD5 /* SceneDelegate.swift in Sources */,
-				C6B1A9FC2AA0C6FF00D28AD5 /* HotelTableViewCell.swift in Sources */,
 				C6B1A9EA2AA09C1800D28AD5 /* RoomsModel.swift in Sources */,
 				C6B1A9EC2AA09C2300D28AD5 /* BookingModel.swift in Sources */,
+				C6CBDC2A2AA324C200CB388E /* UIViewController + extensions.swift in Sources */,
 				C6B1A9F42AA0C26B00D28AD5 /* NetworkEndpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

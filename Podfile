@@ -7,5 +7,5 @@ target 'HotelTestovoye' do
 
   # Pods for HotelTestovoye
 pod 'SnapKit'
-pod "TTGTagCollectionView"
+pod 'TagListView'
 end

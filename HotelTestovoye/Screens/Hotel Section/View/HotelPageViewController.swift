@@ -17,6 +17,7 @@ final class HotelPageViewController: UIViewController {
         tableView.separatorStyle = .none
         tableView.register(HotelHeaderTableViewCell.self)
         tableView.register(HotelFooterTableViewCell.self)
+        tableView.register(OuterTableViewCell.self)
         return tableView
     }()
 
@@ -50,7 +51,7 @@ private extension HotelPageViewController {
 // MARK: - Table view data source
 extension HotelPageViewController: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
-        2
+        3
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -58,6 +59,8 @@ extension HotelPageViewController: UITableViewDataSource, UITableViewDelegate {
         case 0:
             return 1
         case 1:
+            return 1
+        case 2:
             return 1
         default:
             return 0
@@ -71,6 +74,9 @@ extension HotelPageViewController: UITableViewDataSource, UITableViewDelegate {
             return cell
         case 1:
             let cell = tableView.dequeue(HotelFooterTableViewCell.self, indexPath: indexPath)
+            return cell
+        case 2:
+            let cell = tableView.dequeue(OuterTableViewCell.self, indexPath: indexPath)
             return cell
         default:
             return UITableViewCell()

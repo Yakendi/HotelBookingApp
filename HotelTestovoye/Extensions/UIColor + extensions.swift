@@ -43,5 +43,9 @@ extension UIColor {
     static let mainBlue = UIColor(hex: "0D72FF")
     
     static let secondGrayText = UIColor(hex: "828796")
+    static let secondGrayTags = UIColor(hex: "FBFBFC")
     static let secondOrange = UIColor(hex: "FFC700", alpha: 0.2)
+    static let secondBlack = UIColor(hex: "000000", alpha: 0.9)
+    
+    static let darkGrayText = UIColor(hex: "2C3035")
 }

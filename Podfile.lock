@@ -1,16 +1,20 @@
 PODS:
   - SnapKit (5.6.0)
+  - TagListView (1.4.1)
 
 DEPENDENCIES:
   - SnapKit
+  - TagListView
 
 SPEC REPOS:
   trunk:
     - SnapKit
+    - TagListView
 
 SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
 
-PODFILE CHECKSUM: 1b3c2442d91da73aada9b67ab731717328ebd45f
+PODFILE CHECKSUM: d99426652992a3a49c23de11c5dba50f7aca606c
 
 COCOAPODS: 1.12.1
